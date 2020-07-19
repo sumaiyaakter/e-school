@@ -1,0 +1,203 @@
+/*============== Typography ==============*/
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+}
+@media (max-width:767px){
+    h1{
+        font-size: 35px;
+        line-height: 50px;
+    }
+}
+h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+
+/*============== Common ==============*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    transition: .3s;
+}
+a:hover{
+    text-decoration: none;
+}
+.text--primary{color: #21B573}
+.text--orange{color: #FD511A}
+
+.heading-title{
+    padding-bottom: 65px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+}
+.btn {
+    background: #21B573;
+    border-radius: 33px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 5px 28px;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #0fa05f;
+}
+.btn-lg{
+    padding: 12px 28px;
+}
+.btn-md{
+    padding: 8px 35px;
+}
+
+/*============== Header ==============*/
+.header{
+    z-index: 999;
+    padding: 30px 0;
+}
+@media (max-width: 991px){
+    .header {
+        background: #f0fff0;
+        text-align: center;
+        box-shadow: 0px 10px 30px rgba(153, 153, 153, 0.2);
+        padding: 10px 0;
+    }
+}
+.navbar-brand {
+    width: 200px;
+}
+.nav-item {
+    margin-right: 24px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-transform: capitalize;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #21B573;
+}
+
+/*============== Banner ==============*/
+.banner{
+    background-color: #F0FFF0;
+    padding-top: 160px;
+    padding-bottom: 60px;
+}
+
+/*============== Course Info ==============*/
+.course-info{
+    padding-top: 42px;
+}
+.course-info .card{
+    background: #F8FFFB;
+    border-radius: 10px;
+    padding: 60px 50px;
+    transition: .3s;
+}
+.course-info .card:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.course-info img{
+    width: 66px;
+    height: 80px;
+}
+
+/*============== Online Courses ==============*/
+.online-courses{
+    padding-top: 95px;
+}
+.online-courses .card{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding: 25px 20px;
+    transition: .3s;
+}
+.online-courses .card:hover{
+    transform: translateY(-5px);
+}
+.online-courses .post-meta img{
+    width: 24px;
+    height: 24px;
+    margin-top: -3px;
+}
+
+/*============== Header ==============*/
+.testimonial {
+    padding: 80px 0 105px;
+}
+.testimonial img{
+    width: 120px;
+    height: 120px;
+}
+.testimonial p{
+    line-height: 30px;
+}
+
+/*============== Footer ==============*/
+.footer{
+    background-color: #282531;
+}
+.footer-top{
+    padding-bottom: 65px;
+}
+.footer p{
+    line-height: 30px;
+}
+.widget li {
+    margin-bottom: 5px;
+}
+.widget li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.widget li a:hover{
+    opacity: .70;
+}
+.footer-bottom p, .footer-bottom a{
+    color: #CDCDCD;
+}
+.footer-bottom a:hover{
+    color: #fff;
+}
+
